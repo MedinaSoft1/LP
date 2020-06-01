@@ -1,0 +1,13 @@
+.lpc_window {
+    background-color: black;
+    }
+
+    .lpc_body {
+        background-color: black;
+
+    }
+    
+    .lpc_desktop.lpc_window_maximized {
+        width: 100px !important;
+    }
+    

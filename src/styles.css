@@ -1,1 +1,115 @@
 /* You can add global styles to this file, and also import other style files */
+
+.lpc_desktop.lpc_window_maximized {
+    width: 300px !important;
+    height: 500px !important;
+    border: none!important;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2) !important;
+    overflow: hidden;
+}
+
+
+.lpc_desktop.lpc_minimized-header__text,
+.lpc_desktop.lpc_maximized-header__text {
+    color: #fff !important;
+    font-family: 'Helvetica' !important;
+    font-weight: 70 !important;
+    font-size: 13px !important;
+    margin-top: 2px !important;
+    margin-left: 10px !important;
+}
+
+.lpc_desktop.lpc_minimized-header__icon {
+    background-image: url("https://www.liveperson.com/sites/default/files/chatbubble-white.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: 2px 1px !important;
+    background-size: 20px !important;
+    height: 20px !important;
+    width: 25px !important;
+}
+.lpc_desktop.lpc_banner-image-area {
+    height: auto!important;
+    border: none !important;
+    padding-top: 0 !important;
+}
+
+.lpc_desktop.lpc_banner-image-area__image {
+    width: 50px !important;
+}
+.lpc_desktop.lpc_window_maximized {
+    height: 500px !important;
+    width: 300px !important;
+    margin-bottom: 60px !important;
+}
+
+.lpc_desktop.lpc_body {
+    width: 100% !important;
+}
+
+
+.lpc_desktop.lpc_maximized-header__close-button-asset {
+    display: none !important;
+}
+
+.lpc_desktop.lpc_maximized-header{
+    border: none!important;    background: -webkit-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+    background: -o-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+    background: -moz-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+    box-shadow: none !important;
+}
+
+
+.lpc_desktop.lpc_minimized-header__text,
+.lpc_desktop.lpc_maximized-header__text {
+    color: #fff !important;
+    font-family: 'Helvetica' !important;
+    font-size: 15px !important;
+    margin-top: 1px !important;
+    margin-left: 5px !important;
+}
+
+.lpc_desktop.lpc_body {
+    top: 40px !important;
+    overflow: hidden !important;
+    border: none !important;
+}
+
+.lpc_desktop.lpc_message_agent {
+    padding: 7px !important;
+    background: rgb(255, 254, 254) !important;
+    border: rgb(255, 230, 0) 2px solid !important;
+}
+.lpc_desktop.lpc_message-area_agent {
+    padding: 0 5px 1px !important;
+}
+
+.lpc_desktop.lpc_message__text,
+.lpc_desktop.lpc_message_agent__text p {
+    color: black !important;
+    font-family: Helvetica !important;
+}
+
+
+.lpc_desktop.lpc_message_visitor {
+
+    padding: 7px !important;
+    background: rgb(255, 254, 254) !important;
+    border: rgba(255, 145, 0, 0.663) 2px solid !important;
+}
+.lpc_desktop.lpc_message-area_visitor {
+    padding: 0 5px 1px !important;
+}
+
+.lpc_desktop.lpc_composer__text-area-wrapper {
+    padding: 15px 0 !important;
+}
+
+.lpc_desktop.lpc_composer__text-area {
+    font-size: 13px !important;
+}
+
+.lpc_desktop.lpc_composer__text-area::placeholder {
+    font-style: normal !important;
+    color: #998c8c !important;
+}
