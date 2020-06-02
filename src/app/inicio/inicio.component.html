@@ -1,10 +1,20 @@
 
+<h1 class="text-center">Esta es la pagina donde se carga el script</h1>
 
-<h1 class="text-center">This is the page where the tag has to be displayed</h1>
+<h2 class="text-center">Hay que activarlo de algún modo, Liveperson no tiene funciones de inicio predeterminadas, solo Javascript</h2>
 
-<h2 class="text-center">Open the console to see the error</h2>
+<h5 class="text-center">Si sales a otra ruta deberia ocultarse</h5>
 
-<h6 class="text-center">VI don't know i am using the tag correctly, press the button to see</h6>
-<div id="chat"></div>
-<button class="btn btn-success container col-3" routerLink="/chat">Exit</button>
+<div class="col-12 container">
+    <div id="caja" class="container col-6" >
+        <button class="btn btn-success container col-6" (click)="cambiar()">{{view}}</button>
+        <button class="btn btn-success container col-6" routerLink="/chat">Ir a otro componente</button>
+    </div>
+</div>
+
+<h3 class="text-center">Pulsa el botón si está en {{view}} la carga es asíncrona el tiempo oscila </h3>
+<h4 class="test-center">Si abres la consola verás la sucesión de eventos</h4>
+
+<mat-spinner class="container mt-5" *ngIf="spinner"></mat-spinner>
+
 
